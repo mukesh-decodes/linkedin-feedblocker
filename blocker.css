@@ -1,0 +1,6 @@
+/* Hide LinkedIn feed by default — content.js removes this if the user disables blocking */
+div[componentkey*="FeedType_MAIN FEED RELEVANCE"],
+div[role="listitem"][componentkey*="FeedType_MAIN"],
+div[componentkey*="update-card-fo"] {
+  display: none !important;
+}
